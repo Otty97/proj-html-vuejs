@@ -2,4 +2,309 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background: #1f2154;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+header img {
+  height: 27px;
+  width: auto;
+  float: left;
+}
+
+.links {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  float: left;
+}
+
+.links a {
+  text-decoration: none;
+  padding: 18px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.linksIcons i {
+  padding-right: 20px;
+  font-size: 18px;
+}
+
+.searchbox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.searchbox input {
+  height: 47px;
+  width: 150px;
+  font-size: 18px;
+  color: #1f2154;
+  background-color: white;
+  border: none;
+  padding: 20px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+}
+
+.searchbox i {
+  height: 47px;
+  background-color: white;
+  color: #1fad96;
+  font-size: 15px;
+  padding: 15px;
+  cursor: pointer;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.jumbotron {
+  background: #1f2154;
+  height: 700px;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  height: 40px;
+  font-size: 47px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 20px;
+}
+
+.jumbotron h2 {
+  height: 20px;
+  color: #bcbcbc;
+  font-size: 18px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+}
+
+.jumbotron button {
+  height: 70px;
+  height: 47px;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background: #1fad96;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 10px;
+  margin-bottom: 75px;
+  text-align: center;
+  display: inline-block;
+}
+
+.jumbotron button:hover {
+  color: #1fad96;
+  background: white;
+}
+
+.jumbotron button:focus{
+  color: white;
+  background: #28004d;
+}
+
+.images {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgL {
+  float: left;
+  width: 300px;
+  height: 500px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.imgC {
+  width: 700px;
+  height: 450px;
+  border: solid white 18px;
+  border-radius: 10px;
+  position: relative;
+  float: left;
+  box-shadow: 5px 5px 1px 0.5px #9d999b;
+}
+
+.imgCc{
+  position: absolute;
+}
+
+.imgR {
+  width: 300px;
+  height: 500px;
+}
+
+.services {
+  background: #f3f6f3;
+  height: 1700px;
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.founder {
+  padding-top: 300px;
+  width: 750px;
+  text-align: center;
+}
+
+.founder h1 {
+  color: #404040;
+  font-size: 35px;
+}
+
+.founder h2 {
+  color: #404040;
+  font-size: 17px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.founder p {
+  color: grey;
+  font-size: 16px;
+}
+
+.numbers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.number {
+  text-align: center;
+}
+
+.number h1 {
+  font-size: 45px;
+  font-weight: bold;
+  color: #1fad96;
+}
+
+.number p {
+  font-size: 17px;
+  color: #404040;
+  padding: 10px;
+}
+
+.info {
+  height: 700px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.infoL {
+  width: 50%;
+  height: 100%;
+  border: solid black 1px;
+  float: left;
+}
+
+.infoR {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-right: 80px;
+}
+
+.infoR h3 {
+  font-size: 14px;
+  color: #404040;
+}
+
+.infoR h1 {
+  font-size: 45px;
+  color: #404040;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bolder;
+}
+
+.infoR h1 span {
+  font-size: 45px;
+  color: #1fad96;
+  font-weight: lighter;
+}
+
+.infoR i {
+  color: #1fad96;
+  padding-right: 15px;
+}
+
+.infoR p {
+  font-size: 15px;
+  color: #404040;
+  padding: 7px;
+}
+
+.infoR button {
+  height: 70px;
+  height: 47px;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background: #1fad96;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+.infoR button:hover {
+  color: #1fad96;
+  background: white;
+}
+
+.infoR button:focus{
+  color: white;
+  background: #28004d;
 }
