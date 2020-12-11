@@ -171,7 +171,7 @@ header img {
 }
 
 .services {
-  background: #f3f6f3;
+  background: white;
   height: 1700px;
   width: 100%;
 }
@@ -279,7 +279,7 @@ header img {
 
 .infoR p {
   font-size: 15px;
-  color: #404040;
+  color: #1f2154;
   padding: 7px;
 }
 
@@ -307,4 +307,343 @@ header img {
 .infoR button:focus{
   color: white;
   background: #28004d;
+}
+
+.courses {
+  background: #f3f6f3;
+  height: 800px;
+  width: 100%;
+}
+
+.coursesTitle {
+  text-align: center;
+}
+
+.coursesTitle p {
+  color: #9b999b;
+  padding-top: 80px;
+}
+
+.coursesTitle h1 {
+  font-size: 45px;
+  color: #404040;
+  padding: 5px;
+}
+
+.coursesTitle span {
+  font-size: 45px;
+  color: #1fad96;
+  font-weight: lighter;
+}
+
+.coursesPrice{
+  padding-top: 30px;
+  padding-left: 150px;
+  padding-right: 150px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  height: 150px;
+  width: 470px;
+  padding: 20px;
+}
+
+.card:hover {
+  background: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cardPic{
+  height: 100%;
+  width: 130px;
+  float: left;
+}
+
+.cardPic img {
+  border-radius: 50%;
+}
+
+.cardMain {
+  height: 100%;
+  padding-left: 150px;
+}
+
+.cardMain h1{
+  font-size: 20px;
+  color: #1fad96;
+}
+
+.cardMain h1 span{
+  font-size: 16px;
+  color: #1fad96;
+}
+
+.cardMain p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #1f2154;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.cardMain h2, i {
+  font-size: 12px;
+  font-weight: lighter;
+  color: #1f2154;
+}
+
+.cardMain i:first-child {
+  padding-right: 5px;
+}
+
+.cardMain i:last-child {
+  padding-right: 5px;
+  padding-left: 20px;
+}
+
+.coursesLow {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.courses button {
+  height: 70px;
+  height: 47px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background: #1fad96;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 10px;
+  text-align: center;
+}
+
+.courses button:hover {
+  color: #1fad96;
+  background: white;
+}
+
+.courses button:focus{
+  color: white;
+  background: #28004d;
+}
+
+.maxCoach {
+  background: white;
+  height: 700px;
+  width: 100%;
+}
+
+.maxCoach h1 {
+  color: #404040;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.maxCoach h1 span {
+  color: #1fad96;
+  font-size: 45px;
+  font-weight: lighter;
+}
+
+.maxMain {
+  height: 260px;
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.maxImg {
+  height: 100%;
+  width: 35%;
+  padding-right: 70px;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.maxImg img {
+  border-radius: 50%;
+}
+
+.maxImg1 {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  z-index: 2;
+}
+
+.maxImg2 {
+  padding: 50px;
+  padding-right: 0px;
+  margin-top: 150px;
+  position: relative;
+  height: 230px;
+  width: 200px;
+  z-index: 1
+}
+
+.maxInfo {
+  height: 100%;
+  width: 65%;
+  padding-top: 35px;
+  padding-right: 100px;
+  padding-left: 16px;
+  float: left;
+}
+
+.maxInfo p {
+  color: #404040;
+  font-size: 28px;
+  font-weight: lighter;
+}
+
+.maxInfo h2 {
+  color: #404040;
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+.maxInfo h3 {
+  color: #9b999b;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.maxLogo {
+  height: 250px;
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logos {
+  height: 80px;
+  width: 170px;
+  padding: 20px;
+}
+
+.logos:first-child {
+  height: 170px;
+  padding: 50px;
+}
+
+.logos:nth-child(3) {
+  height: 170px;
+  padding: 50px;
+}
+
+
+
+
+
+
+
+
+.blog {
+  background: #f3f6f3;
+  height: 500px;
+  width: 100%;
+}
+
+.blog {
+  background: #f3f6f3;
+  height: 700px;
+  width: 100%;
+}
+
+.help {
+  background: white;
+  height: 900px;
+  width: 100%;
+  border-bottom: solid black 1px;
+}
+
+.start {
+  background: white;
+  height: 250px;
+  width: 100%;
+}
+
+footer {
+  background: #f3f6f3;
+  height: 500px;
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 60px;
+}
+
+.footerMain {
+  height: 240px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.adress {
+  height: 100%;
+  width: 50%;
+}
+
+.socials i {
+  font-size: 30px;
+  height: 40px;
+  width: 40px;
+  color: #9b999b;
+  padding-top: 20px;
+}
+
+.socials i:hover {
+  color: #616865;
+  cursor: pointer;
+}
+
+.explore {
+  height: 100%;
+  width: 25%;
+}
+
+.terms {
+  height: 100%;
+  width: 25%;
+}
+
+.footerMain h3 {
+  color: #404040;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.footerMain li {
+  color: #9b999b;
+  font-size: 15px;
+  font-weight: lighter;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  list-style-type: none;
+}
+
+.footerMain li:hover {
+  color: #616865;
+  cursor: pointer;
 }
