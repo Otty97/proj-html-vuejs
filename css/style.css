@@ -39,14 +39,30 @@ header img {
 
 .links a {
   text-decoration: none;
-  padding: 18px;
+  padding: 13px;
   font-size: 16px;
   font-weight: bold;
+}
+
+.links a:hover {
+  cursor: pointer;
+  color: #1fad96;
+}
+
+.links a i {
+  color: white;
+  padding-left: 5px;
 }
 
 .linksIcons i {
   padding-right: 20px;
   font-size: 18px;
+  color: white;
+}
+
+.linksIcons i:hover {
+  color: #1fad96;
+  transform: scale(1.2);
 }
 
 .searchbox {
@@ -145,8 +161,9 @@ header img {
 
 .imgL {
   float: left;
+  position: relative;
   width: 300px;
-  height: 500px;
+  height: 480px;
   display: flex;
   align-items: flex-start;
 }
@@ -166,13 +183,18 @@ header img {
 }
 
 .imgR {
-  width: 300px;
-  height: 500px;
+  width: 250px;
+  height: 350px;
+  margin-top: 300px;
 }
 
 .services {
   background: white;
+<<<<<<< Updated upstream
   height: 1700px;
+=======
+  height: 1850px;
+>>>>>>> Stashed changes
   width: 100%;
 }
 
@@ -240,8 +262,59 @@ header img {
 .infoL {
   width: 50%;
   height: 100%;
-  border: solid black 1px;
   float: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.infoCard {
+  width: 40%;
+  height: 50%;
+  border-radius: 2%;
+  box-shadow: 1px 1px 1px 1px #9d999b;
+  margin-right: 55px;
+  margin-bottom: 40px;
+}
+
+.infoCard:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.infoCard:nth-child(2) {
+  margin-top: 40px;
+}
+
+.infoCard:nth-child(3) {
+  margin-top: -40px;
+}
+
+.infoMain {
+  width: 100%;
+  height: 40%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.infoMain h1 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #1f2154;
+}
+
+.infoMain p {
+  font-size: 13px;
+  font-weight: lighter;
+  color: #1f2154;
+  padding-top: 7px;
+}
+
+.infoPic {
+  width: 100%;
+  height: 60%
 }
 
 .infoR {
@@ -552,6 +625,7 @@ header img {
   padding: 50px;
 }
 
+<<<<<<< Updated upstream
 
 
 
@@ -576,17 +650,242 @@ header img {
   height: 900px;
   width: 100%;
   border-bottom: solid black 1px;
+=======
+.blog {
+  background: #f3f6f3;
+  height: 690px;
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.blogTitle {
+  height: 170px;
+  width: 100%;
+  text-align: center;
+}
+
+.blogTitle p {
+  color: #9b999b;
+  padding-top: 80px;
+}
+
+.blogTitle h1 {
+  font-size: 45px;
+  color: #404040;
+  padding: 5px;
+}
+
+.blogTitle span {
+  font-size: 45px;
+  color: #1fad96;
+  font-weight: lighter;
+}
+
+.artist {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.artistCard {
+  height: 400px;
+  width: 370px;
+}
+
+.artistCard:hover {
+  cursor: pointer;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.artistPic {
+  height: 60%;
+  width: 100%;
+}
+
+.artistPic img {
+  border-radius: 5%;
+}
+
+.artistMain p {
+  color: #616865;
+  font-weight: lighter;
+  padding-top: 12px;
+}
+
+.artistMain h1 {
+  font-size: 23px;
+  color: #404040;
+  font-weight: bold;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.artistMain p:last-child, i {
+  font-size: 14px;
+  font-weight: lighter;
+  color: #9b999b;
+}
+
+.artistMain i {
+  padding-right: 10px;
+}
+
+.artistMain i:last-child {
+  padding-left: 40px;
+}
+
+.help {
+  background: linear-gradient(to bottom, #ffffff 23%, #000000 370%);
+  height: 1100px;
+  width: 100%;
+}
+
+.helpTitle{
+  text-align: center;
+  padding-top: 90px;
+}
+
+.helpTitle h3 {
+  color: #616865;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.helpTitle h1 {
+  color: #404040;
+  font-size: 45px;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 100px;
+}
+
+.helpTitle h1 span {
+  color: #1fad96;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.helpMain {
+  height: 220px;
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.helpCard {
+  height: 220px;
+  width: 260px;
+}
+
+.helpIcon {
+  height: 40%;
+  width: 100%;
+}
+
+.helpIcon i {
+  font-size: 70px;
+  color: #28004d;
+}
+
+.helpCard h1 {
+  color: #28004d;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.helpCard p {
+  color: #28004d;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.helpImg {
+  height: 622.5px;
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 100px;
+>>>>>>> Stashed changes
 }
 
 .start {
   background: white;
+<<<<<<< Updated upstream
   height: 250px;
   width: 100%;
+=======
+  height: 370px;
+  width: 100%;
+  text-align: center;
+  padding-top: 130px;
+}
+
+.start h2 {
+  color: #404040;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.start h2 span {
+  color: #1fad96;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.start h1 {
+  color: #404040;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.start button {
+  height: 50px;
+  width: 270px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background: #1fad96;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+.start button:hover {
+  color: #1fad96;
+  background: white;
+  border: solid #1fad96 1px;
+}
+
+.start button:focus{
+  color: white;
+  background: #28004d;
+>>>>>>> Stashed changes
 }
 
 footer {
   background: #f3f6f3;
+<<<<<<< Updated upstream
   height: 500px;
+=======
+  height: 400px;
+>>>>>>> Stashed changes
   width: 100%;
   padding-left: 100px;
   padding-right: 100px;
@@ -611,6 +910,10 @@ footer {
   width: 40px;
   color: #9b999b;
   padding-top: 20px;
+<<<<<<< Updated upstream
+=======
+  padding-right: 60px;
+>>>>>>> Stashed changes
 }
 
 .socials i:hover {
@@ -647,3 +950,19 @@ footer {
   color: #616865;
   cursor: pointer;
 }
+<<<<<<< Updated upstream
+=======
+
+.footerBottom p {
+  text-align: center;
+  color: #cccccc;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.footerBottom i {
+  color: #cccccc;
+  font-size: 13px;
+}
+>>>>>>> Stashed changes
