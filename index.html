@@ -14,12 +14,12 @@
       <header>
         <img src="img/logo.png" alt="logo"/>
          <div class="links">
-           <a href="#" @click='anchorPage'>Home <i class="fas fa-angle-down"></i></a>
-           <a href="#" @click='anchorPage'>Pages <i class="fas fa-angle-down"></i></a>
-           <a href="#" @click='anchorPage'>Courses <i class="fas fa-angle-down"></i></a>
-           <a href="#" @click='anchorPage'>Feautures <i class="fas fa-angle-down"></i></a>
-           <a href="#" @click='anchorPage'>Blog <i class="fas fa-angle-down"></i></a>
-           <a href="#" @click='anchorPage'>Shop <i class="fas fa-angle-down"></i></a>
+           <a href="#top">{{navBar[0]}} <i class="fas fa-angle-down"></i></a>
+           <a href="#pages">{{navBar[1]}} <i class="fas fa-angle-down"></i></a>
+           <a href="#courses">{{navBar[2]}} <i class="fas fa-angle-down"></i></a>
+           <a href="#feat">{{navBar[3]}} <i class="fas fa-angle-down"></i></a>
+           <a href="#blog">{{navBar[4]}} <i class="fas fa-angle-down"></i></a>
+           <a href="#bottom">{{navBar[5]}} <i class="fas fa-angle-down"></i></a>
            <div class="linksIcons">
              <i class="fas fa-shopping-cart"></i>
              <i class="far fa-user-circle"></i>
@@ -31,7 +31,7 @@
          </div>
       </header>
       <main>
-        <section class="jumbotron">
+        <section class="jumbotron" id="top">
           <h1>Learn At Your Own Pace!</h1>
           <h2>Get teamed up with people of the same will.</h2>
           <button type="button" name="button">Get Started for free</button>
@@ -77,7 +77,7 @@
               <p>SATISFACION RATE</p>
             </div>
           </div>
-          <div class="info">
+          <div class="info" id="pages">
             <div class="infoL">
               <div class="infoCard">
                 <div class="infoMain">
@@ -127,7 +127,7 @@
             </div>
           </div>
         </section>
-        <section class="courses">
+        <section class="courses" id="courses">
           <div class="coursesTitle">
             <p>CHOOSE A COURSE TO GET STARTED</p>
             <h1>Latest Featured <span>Courses</span></h1>
@@ -198,7 +198,7 @@
             <button type="button" name="button">View all courses <span>&#8594;</span></button>
           </div>
         </section>
-        <section class="maxCoach">
+        <section class="maxCoach" id="feat">
           <h1>Why People Talk About <span>MaxCoach</span>?</h1>
           <div class="maxMain">
             <div class="maxImg">
@@ -236,7 +236,7 @@
             </div>
           </div>
         </section>
-        <section class="blog">
+        <section class="blog" id="blog">
           <div class="blogTitle">
             <p>ENJOY READING ON MAXCOACH</p>
             <h1>Latest on  <span>Our Blogs</span></h1>
@@ -313,7 +313,7 @@
             <img src="img/home-6-services-image-1024x411.png" alt="help-img">
           </div>
         </section>
-        <section class="start">
+        <section class="start" id="bottom">
           <h2>Start today for getting <span>Online Certification</span></h2>
           <h1>You can be your own guiding star whit our help</h1>
           <button type="button" name="button">Get started now</button>
