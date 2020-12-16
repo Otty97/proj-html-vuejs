@@ -146,6 +146,7 @@ header img {
 .jumbotron button:hover {
   color: #1fad96;
   background: white;
+  border: solid #1fad96 2px;
 }
 
 .jumbotron button:focus{
@@ -375,6 +376,7 @@ header img {
 .infoR button:hover {
   color: #1fad96;
   background: white;
+  border: solid #1fad96 2px;
 }
 
 .infoR button:focus{
@@ -503,6 +505,7 @@ header img {
 .courses button:hover {
   color: #1fad96;
   background: white;
+  border: solid #1fad96 2px;
 }
 
 .courses button:focus{
@@ -853,7 +856,7 @@ header img {
 .start button:hover {
   color: #1fad96;
   background: white;
-  border: solid #1fad96 1px;
+  border: solid #1fad96 2px;
 }
 
 .start button:focus{
